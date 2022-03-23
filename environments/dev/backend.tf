@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "da-training-2022-poc-tfstate"
     prefix = "env/dev"
   }
 }
